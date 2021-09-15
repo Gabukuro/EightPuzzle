@@ -1,7 +1,6 @@
 from EigthtPuzzleSolver import EightPuzzle
 import Utils
 
-
 p = EightPuzzle()
 p.shuffle(20)
 path, count = p.solve()
