@@ -71,7 +71,7 @@ class EightPuzzle:
         if len(nodeClosed) > 0:
           return node.generateSolutionPath([]), moveCount
         else:
-          return [node]
+          return [node], moveCount
 
       moves = node.generateMoves()
       idxOpen = idxClosed = -1
